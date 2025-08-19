@@ -5,7 +5,7 @@ $("#addTodo").click(function () {
     $("input").val("");
 });
 
-/*
+
 $(document).on("change", "input[type=checkbox]", function () {
     if ($(this).is(":checked")) {
         $(this).parent().css("text-decoration", "line-through");
@@ -15,4 +15,5 @@ $(document).on("change", "input[type=checkbox]", function () {
         $(this).parent().css("color", "#000");
     }
 });
-*/
+
+//修正を追加
